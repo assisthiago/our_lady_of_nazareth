@@ -130,8 +130,8 @@ dmypy.json
 .DS_Store
 
 # Media folder
-media/
-static/
+./media/
+./static/
 
 # VSCode settings
 .vscode
