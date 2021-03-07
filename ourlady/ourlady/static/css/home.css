@@ -18,19 +18,11 @@
     text-transform: uppercase;
 }
 
-
 #home .next-event .card {
     top: -50%;
-}
-
-#home .next-event .card h1 {
-    position: absolute;
-    top: -15px;
-    left: 125px;
-    font-size: 16px;
-    background-color: #ffc107;
-    padding: 5px 15px;
-    border-radius: 5px;
+    border: 0;
+    -webkit-box-shadow: 0px 5px 20px -10px #000000;
+    box-shadow: 0px 5px 20px -10px #000000;
 }
 
 #home .next-event .card .card-date {
@@ -69,6 +61,23 @@
 
 #home .next-event .card .card-body .card-text-title {
     font-size: 2.5rem;
+}
+
+#home .about-us .image-wrapper img {
+    width: 100%;
+}
+
+#home .about-us .text-wrapper {
+    display: flex;
+    align-items: center;
+    flex-flow: inherit;
+    justify-content: normal;
+    align-content: center;
+}
+
+#home .services .card {
+    border: 0;
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 425px) {
