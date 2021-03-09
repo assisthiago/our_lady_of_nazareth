@@ -46,6 +46,7 @@
 
 #home .next-event .card .card-date .card-subtitle {
     font-size: 14px;
+    border: 0;
 }
 
 #home .next-event .card .card-body {
@@ -64,16 +65,16 @@
     font-size: 2.5rem;
 }
 
-#home .about-us .image-wrapper img {
-    width: 100%;
+#home .liturgy {
+    background-color: rgba(255,215,0, 0.25);
 }
 
-#home .about-us .text-wrapper {
-    display: flex;
-    align-items: center;
-    flex-flow: inherit;
-    justify-content: normal;
-    align-content: center;
+#home .liturgy p {
+    margin: 0;
+}
+
+#home .image-wrapper img {
+    width: 100%;
 }
 
 #home .services .card {
@@ -83,6 +84,11 @@
 
 #home .contact {
     background-color: #f7f7f7;
+}
+
+#home .sub-title {
+    display: block;
+    width: 100%;
 }
 
 #home h6.text-uppercase {
