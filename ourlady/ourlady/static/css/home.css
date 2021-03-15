@@ -13,9 +13,23 @@
     line-height: 75px;
 }
 
-#home .carousel .carousel-caption button {
-    padding: 16px 32px;
-    text-transform: uppercase;
+#home .carousel .carousel-caption .btn {
+    margin-top: 5rem;
+}
+
+#home .about-us,
+#home .liturgy,
+#home .contact,
+#home .services {
+    padding: 5rem 0;
+}
+
+#home .about-us {
+    padding-top: 0;
+}
+
+#home .about-us .btn {
+    margin-top: 1rem;
 }
 
 #home .next-event .card {
@@ -86,6 +100,11 @@
     background-color: #f7f7f7;
 }
 
+#home .contact form,
+#home .contact button {
+    margin-top: 3rem;
+}
+
 #home .sub-title {
     display: block;
     width: 100%;
@@ -109,5 +128,53 @@
 
     #home .next-event .card .card-body .card-text-title {
         line-height: 40px;
+    }
+
+    #home .carousel .carousel-caption {
+        top: 0px;
+        transform: initial;
+    }
+
+    #home .carousel .carousel-caption p {
+        font-size: initial;
+        line-height: initial;
+    }
+
+    #home .carousel .carousel-caption .btn {
+        margin: initial;
+        font-size: 1rem;
+    }
+
+    #home .next-event {
+        padding-top: 60px;
+        padding-bottom: 1rem;
+    }
+
+    #home .next-event .card {
+        top: 0;
+    }
+
+    #home .next-event .card .card-body {
+        padding: 40px 15px 15px 15px;
+    }
+
+    #home .about-us,
+    #home .liturgy,
+    #home .services,
+    #home .contact {
+        padding: 1rem 0;
+    }
+
+    #home .contact form,
+    #home .contact button {
+        margin-top: 1rem;
+    }
+
+    #home .about-us .image-wrapper {
+        margin-bottom: 1rem;
+    }
+
+    #home .liturgy .image-wrapper {
+        margin-top: 1rem;
     }
 }
